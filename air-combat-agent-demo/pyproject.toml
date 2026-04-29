@@ -1,0 +1,14 @@
+[project]
+name = "aircombat-agent-demo"
+version = "0.1.0"
+description = "AI Agent-assisted multi-agent air-combat decision framework demo"
+authors = [{ name = "Your Name" }]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23", "matplotlib>=3.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
